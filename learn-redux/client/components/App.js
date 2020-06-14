@@ -16,3 +16,5 @@ function mapDistpatchToProps(dispatch) {
 }
 
 const App = connect(mapStateToProps, mapDistpatchToProps)(Main)
+
+export default App;
